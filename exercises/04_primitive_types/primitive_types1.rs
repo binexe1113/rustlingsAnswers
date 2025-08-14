@@ -1,7 +1,8 @@
 // Booleans (`bool`)
 
 fn main() {
-    let is_morning = true;
+    let is_morning: bool = true;
+    let is_evening: bool  = false;
     if is_morning {
         println!("Good morning!");
     }
@@ -11,5 +12,6 @@ fn main() {
     // let …
     if is_evening {
         println!("Good evening!");
+        
     }
 }

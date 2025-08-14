@@ -15,7 +15,14 @@
 fn main() {
     // You can optionally experiment here.
 }
-
+fn calculate_price_of_apples(mut apple_qtd:i32)->i32{
+    let mut price:i32;
+    if apple_qtd <= 40{
+        apple_qtd*2
+    }else{
+        apple_qtd
+    }
+}
 // Don't change the tests!
 #[cfg(test)]
 mod tests {
