@@ -20,7 +20,12 @@ mod tests {
     fn regular_structs() {
         // TODO: Instantiate a regular struct.
         // let green =
+        let green = Green{
+            active: true,
+            sign_in: 1,
 
+        };
+        
         assert_eq!(green.red, 0);
         assert_eq!(green.green, 255);
         assert_eq!(green.blue, 0);
